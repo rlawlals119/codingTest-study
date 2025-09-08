@@ -19,5 +19,5 @@ for i in range(1, n):
     count[sushis[end]] += 1
     s.add(sushis[end])
     ans = max(ans, len(s))
-
+ 
 print(ans)
